@@ -21,15 +21,15 @@ jobs:
         with:
           python-version: 3.9
 
-      - name: Instalar Pipenv e Codecov
-        run: |
-          pip install -q pipenv codecov
-      - name: Instalar Dependências
-        run: |
-          pipenv sync -d
-      - name: Rodar Flake8
-        run: |
-          pipenv run flake8
+     # - name: Instalar Pipenv e Codecov
+     #   run: |
+     #     pip install -q pipenv codecov
+    #  - name: Instalar Dependências
+   #     run: |
+   #       pipenv sync -d
+   #   - name: Rodar Flake8
+   #     run: |
+   #       pipenv run flake8
      # - name: Rodar Testes
      #   run: |
      #     pipenv run pytest libpythonpro --cov=libpythonpro
