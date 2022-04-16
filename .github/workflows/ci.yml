@@ -30,9 +30,9 @@ jobs:
       - name: Rodar Flake8
         run: |
           pipenv run flake8 .
-      - name: Rodar Testes
-        run: |
-          pipenv run pytest --cov=pypro
+     # - name: Rodar Testes
+      #  run: |
+      #    pipenv run pytest --cov=pypro
       - name: Relatorio Codecove
         run: |
           codecov
