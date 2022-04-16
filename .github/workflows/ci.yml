@@ -35,4 +35,4 @@ jobs:
           pipenv run pytest --cov=pypro
       - name: Relatorio Codecove
         run: |
-          codecov
+          pipenv run codecov

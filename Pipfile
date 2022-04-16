@@ -11,6 +11,8 @@ pytest-django = "*"
 [dev-packages]
 flake8 = "*"
 coverage = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [requires]
 python_version = "3.9"
